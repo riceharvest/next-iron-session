@@ -2,27 +2,6 @@
 
 **`iron-session` is a secure, stateless, and cookie-based session library for JavaScript.**
 
-<div align="right"><sub><i>our sponsor:</i></sup></div>
-
----
-<div align="center">
-  <a href="https://stytch.com">
-    <picture>
-      <source width="200px" media="(prefers-color-scheme: dark)" srcset="./sponsor/stytch-light.svg">
-      <source width="200px" media="(prefers-color-scheme: light)" srcset="./sponsor/stytch-dark.svg">
-      <img width="200px" src="./sponsor/stytch-dark.svg" />
-    </picture>
-  </a>
-   <p align="center">
-      <a href="https://stytch.com/?utm_source=oss-sponsorship&utm_medium=paid_sponsorship&utm_campaign=ironsession">
-        <b>The identity platform for humans & AI agents</b><br/>
-        One integration for authentication, authorization, and security
-      </a>
-   </p>
-</div>
-
----
-
 The session data is stored in signed and encrypted cookies which are decoded by your server code in a stateless fashion (= no network involved). This is the same technique used by frameworks like
 [Ruby On Rails](https://guides.rubyonrails.org/security.html#session-storage).
 
@@ -245,4 +224,9 @@ Depending on your own needs and preferences, `iron-session` may or may not fit y
 ## Good Reads
 
 - <https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html>
-- <https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html>\n\n---\n\nMaintained by @opensourceframework in the [monorepo](https://github.com/riceharvest/opensourceframework).
+- <https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html>
+
+
+---
+
+Maintained by @opensourceframework in the [monorepo](https://github.com/riceharvest/opensourceframework).
