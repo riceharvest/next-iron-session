@@ -1,6 +1,6 @@
 {
   "name": "@opensourceframework/next-iron-session",
-  "version": "8.0.5",
+  "version": "8.0.4",
   "description": "Secure, stateless, and cookie-based session library for JavaScript",
   "keywords": [
     "session",
@@ -40,11 +40,10 @@
   "scripts": {
     "build": "tsup",
     "dev": "pnpm build && concurrently \"pnpm build --watch\" \"pnpm --filter=next-example dev\" ",
-    "lint": "eslint .",
+    "lint": "tsc --noEmit && tsc --noEmit -p examples/next/tsconfig.json && pnpm eslint . && publint",
     "prepare": "pnpm build",
     "start": "turbo start --filter=next-example",
-    "test": "vitest run --passWithNoTests && pnpm build",
-    "test:coverage": "vitest run --coverage",
+    "test": "vitest run && pnpm build",
     "test:watch": "vitest"
   },
   "prettier": {
