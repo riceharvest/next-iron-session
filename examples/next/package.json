@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "fathom-client": "3.6.0",
-    "@opensourceframework/next-iron-session": "workspace:*",
+    "@opensourceframework/next-iron-session": "^8.0.5",
     "next": "14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
